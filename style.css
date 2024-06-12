@@ -1,0 +1,57 @@
+html {
+  background: url(images/plane.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: rgb(255,255,255,0.7);
+  width: 500px;
+  margin:  25px auto;
+  padding: 50px 100px;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: midnightblue;
+}
+
+h1 {
+  font-size: 42px;
+  font-variant: small-caps;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background: skyblue;
+  padding: 5px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.yellowBorder {
+  border: 2px solid orange;
+  padding: 20px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+.madlib {
+  font-style: italic;
+  color: midnightblue;
+}
+
+#instructions {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background: gray;
+  width: 90%;
+  margin: auto;
+}
